@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Wordle';
+    src: url("karnakcondensed-normal-700.woff") format("woff");
+}
+
+.wordle-ft {
+    font-family: "Wordle";
+  }
+
+h1 {
+    margin: 0;
+} 
+
+
+img {
+    width: 27px;
+    height: 27px;
+}
+
+.cabecalho {
+    /*column-count: 3;*/
+    height: 50px;
+    border-bottom: 1px #d3d6da solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: "Wordle";
+    line-height:50px;
+    text-align: center;
+}
+
+.menu-hamburger {
+    text-align: left;
+    line-height: 60px;
+    margin-left: 10px;
+    position: relative;
+    top: -45px;
+    height: 28px;
+    border: 0;
+    padding:0;
+    background-color: rgba(255, 255, 255, 2);
+}
+
+.button_menu {
+    width: 25px;
+    height: 25px;
+}
+
+.menu-outros {
+    text-align:right;
+    height: 28px;
+    padding:0;
+    border: 0;
+    background-color: rgba(255, 255, 255, 2);
+}
+
+
+  /* Tabuleiro */
+.tabuleiro {
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.quadrado { 
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 7px;
+    background-color: #6aaa64;
+    border: 2px #6aaa64 solid;  
+}
+
+.errado {
+    background-color: #787c7e;
+    border: 2px #787c7e solid; 
+}
+
+.lugar_errado {
+    background-color: #c9b458;
+    border: 2px #c9b458 solid; 
+}
+
+.vazio {
+    background-color: white;
+    border: 2px #d3d6da solid; 
+}
+
+/* Teclado */
+.teclado {
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 8px;
+}
+.tecla {
+    display: inline-block;
+    width: 43px;
+    height: 60px;
+    border-radius: 4px;
+    background-color:#d3d6da;
+    margin-right: 3px;
+}
+
+.errada {
+    background-color: #787c7e;
+    color: white;
+}
+
+.certa {
+    background-color: #6aaa64;
+    color: white;
+}
+
+.enter {
+    width: 65px;
+    height:60px;
+}
+
+.backspace {
+    width: 65px;
+    height:60px;
+    line-height: 60px;
+}
+.backspace img {
+    width: 24px;
+    height: 24px;
+    margin-right: 2.5px;
+    position: relative;
+    bottom: -7px;
+}
+
+.atribuicao {
+    text-align: center;
+    position: relative;
+    font-family: "Wordle";
+    font-size: 13px;
+}

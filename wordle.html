@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Layout</title>
+    <link rel="stylesheet" href="wordle.css">
+</head>
+<body>
+
+    <div class="cabecalho">
+        <div class="title">
+            <h1>Wordle</h1> </div>
+        
+        <button class="menu-hamburger">
+            <img class="button_menu" src="https://dsm01pap009files.storage.live.com/y4mdtKG_ChwdPBlfxZPbKMn6l16qmKoOEpuDP8zbS6Mn9L5oglmJqNgQp_pghwg_dRMkcuL_a-6EzgbPuLETn43y46_L3cMp_TCjrUDq7_6egk4oFubf75wPsZ2djC3MTtQgH-fgTLJrWAm7YsFqZWNYPYIYY2aIrde8PVlRUCDOd4QkQmtJMX4lsZHKo-CA4NmqyTdcQVP4S3O3-R9W7IP4w/botao-de-menu.png?psid=1&width=256&height=256&cropMode=center" alt="">
+        </button>
+    
+        <button  class="menu-outros">
+            <img src="https://dsm01pap009files.storage.live.com/y4mPo6aJ2_o9an3T2-VfTWSL96ZTqK1H0WQC3SOsutsYiYQmmxfnLsQBJ-dgNm54L770mnpzPM9K4ygJK6cPe4rxZQL7yEqxSz-oeSbMgxXBTiiHrVQANXEeIHp-ZJuuD7D22P672Z_UWk6XyKGDF7d9_wasvlrsHfb8wVKs16dKzvgh8us91RMm_7VsvD7rX3QYMIYrjpK4G6A44rHOa8euw/%E2%80%94Pngtree%E2%80%94question%20mark%20vector%20icon_4236972.png?psid=1&width=810&height=810&cropMode=center" alt="">
+            <img src="https://dsm01pap009files.storage.live.com/y4mmhH9k482WsNUR2aHDVoNi-iBei82IojqTF0LwnrROSXqHyy7yJrprW-Pnh5bmEx7mFcSZOMuuHgREA99vu5UOox3d7ptMspe3T_axqCc6e6jszT75wiwrwRDPN6UlsR55ebfy6YTmT3fOeHuMV55_jZCcxH8jfwDi4rt-9EMTzz6iUUHfm3BF04Q_RPKEX4dEmXM8TDPlO_4_A9cvStrdA/ranking.png?psid=1&width=512&height=512&cropMode=center" alt="">
+            <img src="https://dsm01pap009files.storage.live.com/y4mKB-qqCBaNXKwvjqm-yDaslI7-uY5xdLBJbAwjYnxtqdHUS30aT-ByaEIoEq4W6NZ1zLrTRHKA11ElWq47o4B4-StyejN_W6tko8Mb0O1Ji1QhuapnLji0gNXl2pSJ6BeCI3M9r2AMDtynDD8Pu2hIEXou-4-ioHJD4ky3bkGqlrP7_QBZ9G4DPF6V_Zy-kMxDJPPvfgaeMaILxDb0enrlg/definicoes.png?psid=1&width=512&height=512&cropMode=center" alt="">
+        </button >
+    </div>
+
+            <!-- Tabuleiro -->
+
+            <div class="tabuleiro"> 
+                <div class="linha_1">
+                    <div class="quadrado errado">W</div>
+                    <div class="quadrado errado">O</div>
+                    <div class="quadrado errado">R</div>
+                    <div class="quadrado errado">L</div>
+                    <div class="quadrado errado">D</div>
+                </div>
+    
+                <div class="linha_2">
+                    <div class="quadrado lugar_errado">C</div>
+                    <div class="quadrado errado">R</div>
+                    <div class="quadrado errado">A</div>
+                    <div class="quadrado lugar_errado">N</div>
+                    <div class="quadrado">E</div>
+                </div>
+    
+                <div class="linha_3">
+                    <div class="quadrado errado">D</div>
+                    <div class="quadrado errado">A</div>
+                    <div class="quadrado">N</div>
+                    <div class="quadrado">C</div>
+                    <div class="quadrado">E</div>
+                </div>
+    
+                <div class="linha_4">
+                    <div class="quadrado errado">S</div>
+                    <div class="quadrado">I</div>
+                    <div class="quadrado">N</div>
+                    <div class="quadrado">C</div>
+                    <div class="quadrado">E</div>
+                </div>
+    
+                <div class="linha_5">
+                    <div class="quadrado">M</div>
+                    <div class="quadrado">I</div>
+                    <div class="quadrado">N</div>
+                    <div class="quadrado">C</div>
+                    <div class="quadrado">E</div>
+                </div>
+    
+                <div class="linha_6">
+                    <div class="quadrado vazio"></div>
+                    <div class="quadrado vazio"></div>
+                    <div class="quadrado vazio"></div>
+                    <div class="quadrado vazio"></div>
+                    <div class="quadrado vazio"></div>
+                </div>
+            </div>
+            
+            <!-- Teclado -->
+    
+            <div class="teclado linha_1">
+                <div class="tecla">Q</div>
+                <div class="tecla errada">W</div>
+                <div class="tecla certa">E</div>
+                <div class="tecla errada">R</div>
+                <div class="tecla">T</div>
+                <div class="tecla">Y</div>
+                <div class="tecla">U</div>
+                <div class="tecla certa">I</div>
+                <div class="tecla errada">O</div>
+                <div class="tecla">P</div>
+            </div>
+    
+            <div class="teclado linha_2">
+                <div class="tecla errada">A</div>
+                <div class="tecla errada">S</div>
+                <div class="tecla errada">D</div>
+                <div class="tecla">F</div>
+                <div class="tecla">G</div>
+                <div class="tecla">H</div>
+                <div class="tecla">J</div>
+                <div class="tecla">K</div>
+                <div class="tecla errada">L</div>
+            </div>
+    
+            <div class="teclado linha_3">
+                <div class="tecla enter">Enter</div>
+                <div class="tecla">Z</div>
+                <div class="tecla">X</div>
+                <div class="tecla certa">C</div>
+                <div class="tecla">V</div>
+                <div class="tecla">B</div>
+                <div class="tecla certa">N</div>
+                <div class="tecla certa">M</div>
+                <div class="tecla backspace"> <img src="https://dsm01pap009files.storage.live.com/y4mUIpd24LTQURAymkLSnW2QUg_v-0BWBHKgpRVLcu1YsJKfY1XZMpAwLxIjiTtfLsK5VCQDu4JBOLVtprzGDlHN28HszwrPMI_GOUN6cTJEkW-yNBt7doVl979463rVp73ZqjzZ15ec7Ll_-cjNQJjLzN3uSTxwYH3eGFzwp1Iww0_w5A04EFg1nhfjGel-HleFv8YeO7pxAqG54dib-zybQ/backspace.png?psid=1&width=512&height=512&cropMode=center" alt=""></div>
+            </div>
+            <p class="atribuicao"> Copyright © 2022 Gabriel Tsei</p>
+</body>
+</html>
