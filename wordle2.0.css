@@ -9,17 +9,19 @@
 
 .cabecalho {
     column-count: 3;
-    /*height: 50px;*/
+    height: 50px;
     border-bottom: 1px #d3d6da solid;
 }
 
-.menu-hamburguer {
+.menu {
     text-align: left;
+    margin-left: 35px;
+    line-height: 60px
 }
 
 .title {
-    /*display: inline-block;*/
     text-align: center;
+    line-height: 50px;
     font-family: "Wordle";
 }
 
@@ -29,8 +31,9 @@ img {
 }
 
 .menu-outros {
-    text-align: right;
-    /*margin-right: 25px;*/
+    text-align: right   ;
+    line-height: 60px;
+    margin-right: 35px;
 }
 
   /* Tabuleiro */
